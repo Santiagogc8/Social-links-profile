@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark_Grey: hsl(0, 0%, 12%);
+    --Off_Black: hsl(0, 0%, 8%);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    background-color: var(--Off_Black);
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-container{
+    box-sizing: content-box;
+    height: 550px;
+    min-width: 300px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: var(--Dark_Grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--Green);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile span{
+    text-align: center;
+    color: var(--White);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.social{
+    color: var(--White);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.social button{
+    padding: 15px 25px;
+    margin-bottom: 18px;
+    outline: none;
+    border: none;
+    background-color: var(--Grey);
+    color: var(--White);
+    border-radius: 10px;   
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--Off_Black);
+    font-weight: 700;
+}
+
+footer{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
